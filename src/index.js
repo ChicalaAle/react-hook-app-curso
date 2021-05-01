@@ -11,13 +11,15 @@ import ReactDOM from 'react-dom';
 
 import './components/01-useState/counter.css';
 //import { CallbackHook } from './components/06-memos/CallbackHook';
-import { Padre } from './components/07-tarea-memo/Padre';
+// import { Padre } from './components/07-tarea-memo/Padre';
+import { TodoApp } from './components/08-useReducer/TodoApp';
 //import { MemoHook } from './components/06-memos/MemoHook';
 //import { Memorize } from './components/06-memos/Memorize';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Padre />
+    <TodoApp />
   </React.StrictMode>,
   document.getElementById('root')
 );
+

@@ -1,0 +1,15 @@
+.list-group-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+p{
+    cursor: pointer;
+    margin: 0;
+}
+
+.complete{
+    text-decoration: line-through;
+    color: #07f572;
+}
